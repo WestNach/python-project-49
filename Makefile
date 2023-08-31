@@ -2,7 +2,7 @@ nstall:
 		poetry instal
 
 
-Run:
+run:
 		poetry run brain-games
 
 
@@ -15,4 +15,4 @@ publish:
 		
 
 package-install:
-		python3 -m pip install --user dist/*.whll
+		python3 -m pip install --user dist/*.whl
