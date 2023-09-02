@@ -2,3 +2,10 @@
 brain_games/__pycache__/cli.cpython-310.pyc
 brain_games/__pycache__/
 brain_games/scripts/__pycache__/brain_games.cpython-310.pyc
+*.egg-info
+__pycache__
+dist/
+*.pyc
+.coverage
+coverage.xml
+.pytest_cache/
