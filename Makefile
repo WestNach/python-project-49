@@ -1,10 +1,12 @@
-nstall:
-		poetry instal
+install:
+		poetry install
 
 
-run:
+brain-game:
 		poetry run brain-games
 
+brain-even:
+	        poetry run brain-even
 
 build:
 		poetry build
