@@ -1,15 +1,12 @@
+#!/usr/bin/env python3
 from random import randint
 import prompt
 
 
-def welcome_user():
-    print('Welcome to the Brain Games!')
-    name = input('May I have your name? ')
-    print(f'Hello, {name}!')
-    return name
-
-name = None
 def brain_even():
+    print('Welcome to the Brain Games!')
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}!')
     print('Answer "yes" if the number is even. otherwise answer "no"')
     i = 0
     answ = None
@@ -29,6 +26,9 @@ def brain_even():
         else:
             print(f"Let's try again,{name} !")  # Проверка ответа
     print(f"Congratulations,{name}!")  # Завершение цикла
-    
+
+
+def main():
+    brain_even()
 if __name__ == '__main__':
     main()

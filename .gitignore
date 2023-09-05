@@ -1,7 +1,6 @@
 .venv/
 brain_games/__pycache__/cli.cpython-310.pyc
 brain_games/__pycache__/
-brain_games/scripts/__pycache__/brain_games.cpython-310.pyc
 *.egg-info
 __pycache__
 dist/
@@ -9,3 +8,8 @@ dist/
 .coverage
 coverage.xml
 .pytest_cache/
+.Makefile.swp
+dist/hexlet_code-0.1.0-py3-none-any.whl
+dist/hexlet-code-0.1.0.tar.gz
+brain_games/scripts/__pycache__/brain_games.cpython-310.pyc
+brain_games/scripts/__pycache__/brain_games.cpython-310.pyc
