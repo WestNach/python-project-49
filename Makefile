@@ -1,26 +1,17 @@
-install:
-		poetry install
+install:poetry install
 
-brain-game:
-		poetry run brain-games
+brain-game:poetry run brain-games
 
-brain-even:
-	    poetry run brain-even
+brain-even:poetry run brain-even
 
-brain-calc:
-        poetry run brain-calc		
+brain-calc:poetry run brain-calc		
 
-build:
-		poetry build
+build:poetry build
 		
-publish:
-		poetry publish --dry-run
+publish:poetry publish --dry-run
 		
-package-install:
-		python3 -m pip install --user dist/*.whl
+package-install:python3 -m pip install --user dist/*.whl
 
-package-reinstall:
-	    python3 -m pip install --user --force-reinstall dist/*.whl	
+package-reinstall:python3 -m pip install --user --force-reinstall dist/*.whl	
 
-lint:
-	    poetry run flake8 brain_games
+lint:poetry run flake8 brain_games
