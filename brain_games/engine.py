@@ -1,13 +1,13 @@
 import prompt
-from brain_games import games
+from games import *
 
-def start():
+def start(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(games.RULE_GAME)
+    print(game.RULE_GAME)
     if i != 3:
-        Quest,true_answ = games.variables
+        Quest,true_answ = game.variables
         print(f"Question: {Quest}")  # Вопрос
         answ = input("You answer: ")  # Ввод ответа
         if answ == true_answ:
