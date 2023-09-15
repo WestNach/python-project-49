@@ -4,7 +4,7 @@ import random
 import sys
 sys.path = "python-project-49/brain_games/engine.py"
 from brain_games.engine import start
-from brain_games.games import gcd as game
+from brain_games.games import prime as game
 
 
 def main():

@@ -1,6 +1,7 @@
 import random 
 RULE_GAME = 'What is the result of the expression?'
 
+
 def variables():  # Генерация нужных данных
     operators = ['+', '-', '*' ]
     num1 = random.randint(0, 100)  # Генерация чисел

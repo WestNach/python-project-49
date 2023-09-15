@@ -15,4 +15,4 @@ def variables():
             Quest.append("..")
         else:
             Quest.append(start + ind * diff)
-    return Quest,true_answ 
+    return Quest,str(true_answ)
