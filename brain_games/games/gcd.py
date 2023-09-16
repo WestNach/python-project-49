@@ -8,4 +8,4 @@ def variables():
     num2 = random.randint(1, 100)
     Quest = f'{num1},{num2}'
     true_answ = str(math.gcd(num1, num2))
-    return Quest,true_answ
+    return Quest, true_answ

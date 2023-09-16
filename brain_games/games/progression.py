@@ -3,9 +3,9 @@ RULE_GAME = 'What number is missing in the progression?'
 
 
 def variables():
-    start = random.randint(0,10)
-    diff = random.randint(1,10)
-    length = random.randint(5,10)
+    start = random.randint(0, 10)
+    diff = random.randint(1, 10)
+    length = random.randint(5, 10)
     miss_index = random.randint(0, length - 1)
     Quest = []
     ind = 0
@@ -15,4 +15,4 @@ def variables():
             Quest.append("..")
         else:
             Quest.append(start + ind * diff)
-    return Quest,str(true_answ)
+    return Quest, str(true_answ)

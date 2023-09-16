@@ -2,6 +2,7 @@ import prompt
 
 
 game = None
+
 def start(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
@@ -9,7 +10,7 @@ def start(game):
     print(game.RULE_GAME)
     i = 0
     while i != 3:
-        Quest,true_answ = game.variables()
+        Quest, true_answ = game.variables()
         print(f"Question: {Quest}")  # Вопрос
         answ = input("You answer: ")  # Ввод ответа
         if answ == true_answ:

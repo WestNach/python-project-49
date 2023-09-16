@@ -11,4 +11,4 @@ def variables():
             true_answ = "no"
         else:
             true_answ = "yes"
-    return Quest,true_answ
+    return Quest, true_answ
