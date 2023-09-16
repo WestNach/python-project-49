@@ -2,8 +2,8 @@ package-reinstall:
 	python3 -m pip install --user --force-reinstall dist/*.whl	
 install:
 	poetry install
-brain-base:
-	poetry run brain-base
+brain-games:
+	poetry run brain-games
 build:
 	poetry build
 publish:
