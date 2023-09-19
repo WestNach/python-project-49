@@ -9,7 +9,7 @@ sys.path = "python-project-49/brain_games/engine.py"
 
 def main():
     start(game)
-    
-    
+
+
 if __name__ == '__main__':
     main()
