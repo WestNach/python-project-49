@@ -12,7 +12,7 @@ def start(game):
     while i != 3:
         Quest, true_answ = game.variables()
         print(f"Question: {Quest}")  # Вопрос
-        answ = input("You answer: ")  # Ввод ответа
+        answ = prompt("You answer: ")  # Ввод ответа
         if answ == true_answ:
             i += 1
             print("Correct")
