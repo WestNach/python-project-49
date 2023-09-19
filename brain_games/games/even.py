@@ -8,4 +8,4 @@ def variables():
         true_answ = "yes"
     else:
         true_answ = "no"
-    return Quest, true_answ
+    return Quest, str(true_answ)
