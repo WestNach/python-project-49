@@ -20,4 +20,5 @@ def start(game):
         else:
             print(f'"{answ}" is wrong answer ;(. Correct answer was "{true_answ}"')
             print(f"Let's try again, {name}!")  # Проверка ответа
+            break
     print(f"Congratulations, {name}!")  # Завершение цикла
