@@ -6,9 +6,12 @@ def variables():
     Quest = random.randint(1, 100)
     if Quest < 2:
         true_answ = "no"
-    for i in range(2, int(Quest ** 0.5) + 1):
-        if Quest % i == 0:
-            true_answ = "no"
-        else:
-            true_answ = "yes"
+    elif Quest == 2:
+        true_answ = "yes"
+    else:
+        true_answ = "yes"
+        for i in range(2, int(Quest ** 0.5) + 1):
+            if Quest % i == 0:
+                true_answ = "no"
+                break
     return Quest, true_answ
