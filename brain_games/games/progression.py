@@ -15,4 +15,5 @@ def variables():
             Quest.append("..")
         else:
             Quest.append(start + ind * diff)
+    Quest = " ".join(map(str, Quest))
     return Quest, str(true_answ)
