@@ -9,6 +9,7 @@ def start(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.RULE_GAME)
+    incorrect = 'is wrong answer ;(. Correct answer was'
     i = 0
     while i != 3:
         Quest, true_answ = game.variables()
@@ -18,7 +19,7 @@ def start(game):
             i += 1
             print("Correct")
         else:
-            print(f'"{answ}" is wrong answer ;(. Correct answer was "{true_answ}"')
+            print(f'"{answ}" {incorrect} "{true_answ}"')
             print(f"Let's try again, {name}!")  # Проверка ответа
             break
     print(f"Congratulations, {name}!")  # Завершение цикла
