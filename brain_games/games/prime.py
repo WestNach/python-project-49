@@ -20,7 +20,7 @@ def cut_prime(Quest):
 def variables():
     Quest = random.randint(1, 100)
     bull = cut_prime(Quest)
-    if bull == True:
+    if bull is True:
         true_answ = 'yes'
     else:
         true_answ = 'no'
