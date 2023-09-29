@@ -19,4 +19,3 @@ def variables():
     else:
         true_answ = 'no'
     return Quest, str(true_answ)
-
