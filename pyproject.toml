@@ -4,6 +4,11 @@ version = "0.1.0"
 description = ""
 authors = ["Чекменёв Владислав <<nahvest@gmail.com>>"]
 packages = [{include = "brain_games"},]
+repository = "https://github.com/WestNach/python-project-49"
+classifiers = [
+    "Intended Audience :: Education",
+    "Natural Language :: English",
+    "Topic :: Education",]
 
 [tool.poetry.dependencies]
 python = "^3.10"
