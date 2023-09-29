@@ -13,8 +13,8 @@ def cut_even(Quest):
 
 def variables():
     Quest = random.randint(0, 100)
-    cut_even(Quest)
-    if cut_even.bull == True:
+    bull = cut_even(Quest)
+    if bull == True:
         true_answ = 'yes'
     else:
         true_answ = 'no'
