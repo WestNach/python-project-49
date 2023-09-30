@@ -18,9 +18,10 @@ def make_quest(start,diff,length,miss_index):
             Quest.append("..")
         else:
             Quest.append(start + ind * diff)
-        return Quest, true_answ
+    return Quest, true_answ
 
 
 def variables(Quest, true_answ):
     Quest = " ".join(map(str, Quest))
-    return Quest, str(true_answ)
+    true_answ = str(true_answ)
+    return Quest, true_answ
