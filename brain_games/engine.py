@@ -12,7 +12,8 @@ def start(game):
     print(rule)
     incorrect = 'is wrong answer ;(. Correct answer was'
     i = 0
-    while i != 3:
+    rounds = 3
+    while i != rounds:
         Quest, true_answ = game.variables()
         print(f"Question: {Quest}")  # Вопрос
         answ = prompt.string("You answer: ")  # Ввод ответа
