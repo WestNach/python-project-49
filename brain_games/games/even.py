@@ -9,13 +9,15 @@ def cut_even(Quest):
         bull = False
     return bull
 
+def rule():
+    rule = 'Answer "yes" if the number is even, otherwise answer "no".'
+    return rule
 
 def variables():
-    rule = 'Answer "yes" if the number is even, otherwise answer "no".'
     Quest = random.randint(0, 100)
     bull = cut_even(Quest)
     if bull is True:
         true_answ = 'yes'
     else:
         true_answ = 'no'
-    return Quest, str(true_answ), rule
+    return Quest, str(true_answ)

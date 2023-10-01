@@ -2,7 +2,6 @@ import random
 
 
 def variables():  # Генерация нужных данных
-    rule = 'What is the result of the expression?'
     operators = ['+', '-', '*']
     num1 = random.randint(0, 100)  # Генерация чисел
     num2 = random.randint(0, 100)
@@ -16,4 +15,8 @@ def variables():  # Генерация нужных данных
             true_answ = num1 - num2
         case '*':
             true_answ = num1 * num2
-    return Quest, str(true_answ), rule
+    return Quest, str(true_answ)
+
+def rule():
+    rule = 'What is the result of the expression?'
+    return rule
