@@ -1,9 +1,10 @@
 import random
 RULE_GAME = 'What number is missing in the progression?'
 
+
 def variables():
     start, diff, length, miss_index = generate_data()
-    Quest, true_answ = make_quest(start,diff,length,miss_index)
+    Quest, true_answ = make_quest(start, diff, length, miss_index)
     Quest = " ".join(map(str, Quest))
     true_answ = str(true_answ)
     return Quest, true_answ
@@ -17,7 +18,7 @@ def generate_data():
     return start, diff, length, miss_index
 
 
-def make_quest(start,diff,length,miss_index):
+def make_quest(start, diff, length, miss_index):
     Quest = []
     ind = 0
     for ind in range(length):
