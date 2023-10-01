@@ -15,9 +15,11 @@ def cut_prime(Quest):
                 break
     return bull
 
+
 def rule():
     rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'
     return rule
+
 
 def variables():
     Quest = random.randint(1, 100)

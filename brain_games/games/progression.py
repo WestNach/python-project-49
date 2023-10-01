@@ -8,9 +8,11 @@ def variables():
     true_answ = str(true_answ)
     return Quest, true_answ
 
+
 def rule():
     rule = 'What number is missing in the progression?'
     return rule
+
 
 def generate_data():
     start = random.randint(0, 10)

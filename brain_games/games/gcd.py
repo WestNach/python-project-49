@@ -9,6 +9,7 @@ def variables():
     true_answ = str(math.gcd(num1, num2))
     return Quest, true_answ
 
+
 def rule():
     rule = 'Find the greatest common divisor of given numbers.'
     return rule

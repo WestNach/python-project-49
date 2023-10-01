@@ -17,6 +17,7 @@ def variables():  # Генерация нужных данных
             true_answ = num1 * num2
     return Quest, str(true_answ)
 
+
 def rule():
     rule = 'What is the result of the expression?'
     return rule
