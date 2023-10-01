@@ -8,7 +8,8 @@ def start(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(game.RULE_GAME)
+    rule = game.variables()
+    print(rule)
     incorrect = 'is wrong answer ;(. Correct answer was'
     i = 0
     while i != 3:

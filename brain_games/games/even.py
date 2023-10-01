@@ -1,5 +1,4 @@
 import random
-RULE_GAME = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def cut_even(Quest):
@@ -12,10 +11,11 @@ def cut_even(Quest):
 
 
 def variables():
+    rule = 'Answer "yes" if the number is even, otherwise answer "no".'
     Quest = random.randint(0, 100)
     bull = cut_even(Quest)
     if bull is True:
         true_answ = 'yes'
     else:
         true_answ = 'no'
-    return Quest, str(true_answ)
+    return Quest, str(true_answ), rule

@@ -1,13 +1,13 @@
 import random
-RULE_GAME = 'What number is missing in the progression?'
 
 
 def variables():
+    rule = 'What number is missing in the progression?'
     start, diff, length, miss_index = generate_data()
     Quest, true_answ = make_quest(start, diff, length, miss_index)
     Quest = " ".join(map(str, Quest))
     true_answ = str(true_answ)
-    return Quest, true_answ
+    return Quest, true_answ, rule
 
 
 def generate_data():

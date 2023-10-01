@@ -1,5 +1,4 @@
 import random
-RULE_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def cut_prime(Quest):
@@ -18,10 +17,11 @@ def cut_prime(Quest):
 
 
 def variables():
+    rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'
     Quest = random.randint(1, 100)
     bull = cut_prime(Quest)
     if bull is True:
         true_answ = 'yes'
     else:
         true_answ = 'no'
-    return Quest, true_answ
+    return Quest, true_answ, rule
