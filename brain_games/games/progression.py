@@ -11,9 +11,9 @@ def generate_data():
 
 def make_quest(start,diff,length,miss_index):
     Quest = []
-    i = 0
+    ind = 0
     for ind in range(length):
-        if i == miss_index:
+        if ind == miss_index:
             true_answ = start + ind * diff
             Quest.append("..")
         else:
@@ -22,6 +22,8 @@ def make_quest(start,diff,length,miss_index):
 
 
 def variables(Quest, true_answ):
+    start, diff, length, miss_index = generate_data()
+    Quest, true_answ = make_quest(start,diff,length,miss_index)
     Quest = " ".join(map(str, Quest))
     true_answ = str(true_answ)
     return Quest, true_answ
