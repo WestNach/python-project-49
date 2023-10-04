@@ -1,16 +1,16 @@
 import random
 
 
-def cut_prime(Quest):
+def cut_prime(quest):
     bull = None
-    if Quest < 2:
+    if quest < 2:
         bull = False
-    elif Quest == 2:
+    elif quest == 2:
         bull = True
     else:
         bull = True
-        for i in range(2, int(Quest ** 0.5) + 1):
-            if Quest % i == 0:
+        for i in range(2, int(quest ** 0.5) + 1):
+            if quest % i == 0:
                 bull = False
                 break
     return bull
@@ -21,11 +21,11 @@ def rule():
     return rule
 
 
-def variables():
-    Quest = random.randint(1, 100)
-    bull = cut_prime(Quest)
+def question_answer():
+    quest = random.randint(1, 100)
+    bull = cut_prime(quest)
     if bull is True:
         true_answ = 'yes'
     else:
         true_answ = 'no'
-    return Quest, true_answ
+    return quest, true_answ

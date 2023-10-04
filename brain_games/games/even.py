@@ -1,9 +1,9 @@
 import random
 
 
-def cut_even(Quest):
+def cut_even(quest):
     bull = None
-    if Quest % 2 == 0:
+    if quest % 2 == 0:
         bull = True
     else:
         bull = False
@@ -15,11 +15,11 @@ def rule():
     return rule
 
 
-def variables():
-    Quest = random.randint(0, 100)
-    bull = cut_even(Quest)
+def question_answer():
+    quest = random.randint(0, 100)
+    bull = cut_even(quest)
     if bull is True:
         true_answ = 'yes'
     else:
         true_answ = 'no'
-    return Quest, str(true_answ)
+    return quest, str(true_answ)

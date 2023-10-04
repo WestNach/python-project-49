@@ -1,12 +1,12 @@
 import random
 
 
-def variables():  # Генерация нужных данных
+def question_answer():  # Генерация нужных данных
     operators = ['+', '-', '*']
     num1 = random.randint(0, 100)  # Генерация чисел
     num2 = random.randint(0, 100)
     operator = random.choice(operators)
-    Quest = f'{num1} {operator} {num2}'
+    quest = f'{num1} {operator} {num2}'
     true_answ = None
     match operator:
         case '+':
@@ -15,7 +15,7 @@ def variables():  # Генерация нужных данных
             true_answ = num1 - num2
         case '*':
             true_answ = num1 * num2
-    return Quest, str(true_answ)
+    return quest, str(true_answ)
 
 
 def rule():

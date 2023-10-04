@@ -4,7 +4,7 @@ import prompt
 game = None
 
 
-def start(game):
+def game_proc(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
@@ -14,8 +14,8 @@ def start(game):
     i = 0
     rounds = 3
     while i != rounds:
-        Quest, true_answ = game.variables()
-        print(f"Question: {Quest}")  # Вопрос
+        quest, true_answ = game.question_answer()
+        print(f"Question: {quest}")  # Вопрос
         answ = prompt.string("You answer: ")  # Ввод ответа
         if answ == true_answ:
             i += 1
