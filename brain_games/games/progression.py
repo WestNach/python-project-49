@@ -7,9 +7,9 @@ MAXIMUM_VALUE = 10
 
 
 def generate_data():
-    initial_term = random.randint(MIN_VALUE, MAXIMUM_VALUE )
-    common_difference = random.randint(MIN_VALUE + INDEX_CORRECT, MAXIMUM_VALUE )
-    length = random.randint(MIN_LENGTH, MAXIMUM_VALUE )
+    initial_term = random.randint(MIN_VALUE, MAXIMUM_VALUE)
+    common_difference = random.randint(MIN_VALUE + INDEX_CORRECT, MAXIMUM_VALUE)
+    length = random.randint(MIN_LENGTH, MAXIMUM_VALUE)
     miss_index = random.randint(MIN_VALUE, length - INDEX_CORRECT)
     return initial_term, common_difference, length, miss_index
 
