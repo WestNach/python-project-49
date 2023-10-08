@@ -2,7 +2,12 @@ import random
 RULE = 'What number is missing in the progression?'
 
 
-def question_answer(progression, miss_index):
+def question_answer():
+    initial_term = generate_data.initial_term
+    common_difference = generate_data.common_difference
+    length = generate_data.length
+    miss_index = generate_data.miss_index
+    progression = create_progression.progression
     create_quest = list(progression)
     create_true_answ = progression[miss_index]
     create_quest[miss_index] = ".."
