@@ -8,8 +8,7 @@ def game_proc(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    rule = game.rule()
-    print(rule)
+    print(game.RULE)
     incorrect = 'is wrong answer ;(. Correct answer was'
     i = 0
     rounds = 3

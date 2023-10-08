@@ -1,4 +1,5 @@
 import random
+RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def cut_even(quest):
@@ -8,11 +9,6 @@ def cut_even(quest):
     else:
         bull = False
     return bull
-
-
-def rule():
-    rule = 'Answer "yes" if the number is even, otherwise answer "no".'
-    return rule
 
 
 def question_answer():

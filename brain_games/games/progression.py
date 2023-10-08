@@ -1,17 +1,11 @@
 import random
+RULE = 'What number is missing in the progression?'
 
 
-def question_answer():
-    initial_term, common_difference, length, miss_index = generate_data()
-    quest, true_answ = replace_element_with_missing(initial_term, common_difference, length, miss_index)
-    quest = " ".join(map(str, quest))
-    true_answ = str(true_answ)
+def question_answer(create_quest, create_true_answ):
+    quest = " ".join(map(str, create_quest))
+    true_answ = str(create_true_answ)
     return quest, true_answ
-
-
-def rule():
-    rule = 'What number is missing in the progression?'
-    return rule
 
 
 def generate_data():
@@ -34,7 +28,7 @@ def create_progression(initial_term, common_difference, length):
 
 
 def replace_element_with_missing(progression, miss_index):
-    quest = list(progression)
-    true_answ = progression[miss_index]
-    quest[miss_index] = ".."
-    return quest, true_answ
+    create_quest = list(progression)
+    create_true_answ = progression[miss_index]
+    create_quest[miss_index] = ".."
+    return create_quest, create_true_answ

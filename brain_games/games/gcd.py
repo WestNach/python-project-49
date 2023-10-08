@@ -1,5 +1,6 @@
 import random
 import math
+RULE = 'Find the greatest common divisor of given numbers.'
 
 
 def question_answer():
@@ -8,8 +9,3 @@ def question_answer():
     quest = f'{num1} {num2}'
     true_answ = str(math.gcd(num1, num2))
     return quest, true_answ
-
-
-def rule():
-    rule = 'Find the greatest common divisor of given numbers.'
-    return rule

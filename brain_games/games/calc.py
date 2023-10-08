@@ -1,4 +1,5 @@
 import random
+RULE = 'What is the result of the expression?'
 
 
 def question_answer():  # Генерация нужных данных
@@ -16,8 +17,3 @@ def question_answer():  # Генерация нужных данных
         case '*':
             true_answ = num1 * num2
     return quest, str(true_answ)
-
-
-def rule():
-    rule = 'What is the result of the expression?'
-    return rule
