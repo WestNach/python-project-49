@@ -20,33 +20,33 @@ This is a set of 5 games for your brain.
 You will be given a number. You need to answer whether it is [even](https://en.m.wikipedia.org/wiki/Parity_(mathematics)) or not.
 Answer "yes" if given number is even, otherwise "no".
 
-[![asciicast](https://asciinema.org/a/6DNUPqrN9yiGFwewoTDIXdbVC.svg)](https://asciinema.org/a/6DNUPqrN9yiGFwewoTDIXdbVC)
+[![asciicast](https://asciinema.org/a/n04OtnhOHEBhKNYJ6cv5E0jMZ.svg)](https://asciinema.org/a/n04OtnhOHEBhKNYJ6cv5E0jMZ)
 
 #### Calculator
 
 You will be given an arithmetic expression. You need to calculate the result and enter it as an answer:
 
-[![asciicast](https://asciinema.org/a/CgFTOnN0a6FU7eKLZC6c98kNK.svg)](https://asciinema.org/a/CgFTOnN0a6FU7eKLZC6c98kNK)
+[![asciicast](https://asciinema.org/a/BaH1GzynTWMe4UDlOi3ScRq9P.svg)](https://asciinema.org/a/BaH1GzynTWMe4UDlOi3ScRq9P)
 
 #### Greatest common divisor
 
 You will be given two numbers. You need to find the [greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor) and enter it as an answer.
 
-[![asciicast](https://asciinema.org/a/raaZMTDvDFXCV1aOvrS9Fp6jf.svg)](https://asciinema.org/a/raaZMTDvDFXCV1aOvrS9Fp6jf)
+[![asciicast](https://asciinema.org/a/IcXnYSkKzmwMcbsiLRFeAVU4S.svg)](https://asciinema.org/a/IcXnYSkKzmwMcbsiLRFeAVU4S)
 
 #### Progression
 
 You will be given an [arithmetic progression](https://en.wikipedia.org/wiki/Arithmetic_progression) with one missing number.
 You need to figure out this missing number and enter it as an answer.
 
-[![asciicast](https://asciinema.org/a/mgYknWbLQo2LYljJToQPLqbGn.svg)](https://asciinema.org/a/mgYknWbLQo2LYljJToQPLqbGn)
+[![asciicast](https://asciinema.org/a/bf2EvqIWdomtpIAKKWEFxuvX8.svg)](https://asciinema.org/a/bf2EvqIWdomtpIAKKWEFxuvX8)
 
 
 #### Prime number
 
 You will be given a number. You need to answer whether it is a [prime number](https://en.wikipedia.org/wiki/List_of_prime_numbers) or not.
 
-[![asciicast](https://asciinema.org/a/gwTTW2GGs4PY7OcJkpKRkp9of.svg)](https://asciinema.org/a/gwTTW2GGs4PY7OcJkpKRkp9of)
+[![asciicast](https://asciinema.org/a/jFLBlEGNJMd4PIXpzgpcgWUx9.svg)](https://asciinema.org/a/jFLBlEGNJMd4PIXpzgpcgWUx9)
 
 
 ## Installation
