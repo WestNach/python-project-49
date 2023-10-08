@@ -1,16 +1,16 @@
 import random
 RULE = 'What number is missing in the progression?'
+INDEX_CORRECT = 1
+MIN_VALUE = 0
+MIN_LENGTH = 5
+MAXIMUM_VALUE = 10
 
 
 def generate_data():
-    index_correct = 1
-    min_value = 0
-    min_length = 5
-    maximum_value = 10
-    initial_term = random.randint(min_value, maximum_value)
-    common_difference = random.randint(min_value + index_correct, maximum_value)
-    length = random.randint(min_length, maximum_value)
-    miss_index = random.randint(min_value, length - index_correct)
+    initial_term = random.randint(MIN_VALUE, MAXIMUM_VALUE )
+    common_difference = random.randint(MIN_VALUE + INDEX_CORRECT, MAXIMUM_VALUE )
+    length = random.randint(MIN_LENGTH, MAXIMUM_VALUE )
+    miss_index = random.randint(MIN_VALUE, length - INDEX_CORRECT)
     return initial_term, common_difference, length, miss_index
 
 
