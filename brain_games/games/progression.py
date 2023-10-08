@@ -3,21 +3,23 @@ RULE = 'What number is missing in the progression?'
 
 
 def generate_data():
-    index_correction = 1
+    index_correct = 1
     min_value = 0
     min_length = 5
     maximum_value = 10
     initial_term = random.randint(min_value, maximum_value)
-    common_difference = random.randint(min_value + index_correction, maximum_value)
+    common_difference = random.randint(min_value + index_correct, maximum_value)
     length = random.randint(min_length, maximum_value)
-    miss_index = random.randint(min_value, length - index_correction)
+    miss_index = random.randint(min_value, length - index_correct)
     return initial_term, common_difference, length, miss_index
+
 
 def create_progression(initial_term, common_difference, length):
     progression = []
     for i in range(length):
         progression.append(initial_term + i * common_difference)
     return progression
+
 
 def question_answer():
     initial_term, common_difference, length, miss_index = generate_data()
