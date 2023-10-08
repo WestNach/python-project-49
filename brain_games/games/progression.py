@@ -2,9 +2,9 @@ import random
 RULE = 'What number is missing in the progression?'
 
 
-def question_answer(create_quest, create_true_answ):
-    quest = " ".join(map(str, create_quest))
-    true_answ = str(create_true_answ)
+def question_answer():
+    quest = " ".join(map(str, replace_element_with_missing.create_quest))
+    true_answ = str(replace_element_with_missing.create_true_answ)
     return quest, true_answ
 
 
