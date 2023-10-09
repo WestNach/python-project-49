@@ -4,7 +4,7 @@ import prompt
 game = None
 
 
-def game_proc(game):
+def game_process(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')

@@ -1,11 +1,13 @@
 import random
 RULE = 'What is the result of the expression?'
+MIN_VALUE = 0
+MAXIMUM_VALUE = 100
 
 
 def question_answer():  # Генерация нужных данных
     operators = ['+', '-', '*']
-    num1 = random.randint(0, 100)  # Генерация чисел
-    num2 = random.randint(0, 100)
+    num1 = random.randint(MIN_VALUE, MAXIMUM_VALUE)  # Генерация чисел
+    num2 = random.randint(MIN_VALUE, MAXIMUM_VALUE)
     operator = random.choice(operators)
     quest = f'{num1} {operator} {num2}'
     true_answ = None

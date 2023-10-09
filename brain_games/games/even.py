@@ -1,5 +1,7 @@
 import random
 RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
+MIN_VALUE = 0
+MAXIMUM_VALUE = 100
 
 
 def cut_even(quest):
@@ -12,7 +14,7 @@ def cut_even(quest):
 
 
 def question_answer():
-    quest = random.randint(0, 100)
+    quest = random.randint(MIN_VALUE, MAXIMUM_VALUE)
     bull = cut_even(quest)
     if bull is True:
         true_answ = 'yes'
